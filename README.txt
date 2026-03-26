@@ -1,19 +1,16 @@
-{
-  "name": "oyun-grubu-yonetim",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.10"
-  }
-}
+Vercel'e yükleme adımları
+
+1) Bu paketi indir ve zipten çıkar.
+2) Vercel panelinde Add New > Project de.
+3) İki yol var:
+   - GitHub'a yükleyip repo bağla
+   - veya Vercel CLI / sürükle bırak yerine önce GitHub kullan.
+4) Framework: Vite
+5) Build Command: npm run build
+6) Output Directory: dist
+7) Deploy de.
+
+Not:
+- Bu sürüm verileri tarayıcı localStorage içinde tutar.
+- Aynı bilgisayar ve aynı tarayıcıda veri korunur.
+- Çok kullanıcılı ve ortak erişimli veritabanı istersen sonraki sürümde Supabase eklenir.
